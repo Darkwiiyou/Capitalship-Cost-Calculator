@@ -1,0 +1,28 @@
+{
+"Exorium Processing Unit":{
+ "Weight": 699606.81,
+ "Volume":  45857.66,
+ "Crafting Materials":{
+    "Lukium": 25449.39,
+    "Charodium": 15062.83,
+    "Aegisium": 13280.02,
+    "Ymirium": 11297.13,
+    "Kutonium": 6638.78,
+    "Bastium": 5432.28,
+    "Alium Alloy": 3657.28,
+    "Ajatite": 1662.53,
+    "Corazium": 1416.35,
+    "Baltium Alloy": 1330.02,
+    "Arkanium": 1062.26
+ },
+ "Armor Value": 2.63,
+ "Density": 15.36,
+ "Corrosion Resistance": 502,
+ "Crafting Resources":{
+   "Red": 6350,
+   "Purple": 6913,
+   "Yellow": 0,
+   "Blue": 0
+ }
+}
+}

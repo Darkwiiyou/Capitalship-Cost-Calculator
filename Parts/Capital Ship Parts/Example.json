@@ -1,0 +1,18 @@
+{
+    "NAME":{
+     "Weight": 0,
+     "Volume":  0,
+     "Crafting Materials":{
+        
+     },
+     "Armor Value": 0,
+     "Density": 0,
+     "Corrosion Resistance": 0,
+     "Crafting Resources":{
+       "Red": 0,
+       "Purple": 0,
+       "Yellow": 0,
+       "Blue": 0
+     }
+    }
+    }
