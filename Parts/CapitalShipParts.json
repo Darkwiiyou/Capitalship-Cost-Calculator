@@ -1,0 +1,103 @@
+{
+"Exorium Processing Unit":{
+ "Weight": 699606.81,
+ "Volume":  45857.66,
+ "Crafting Materials":{
+    "Lukium": 35449.39,
+    "Charodium": 15062.83,
+    "Aegisium": 13280.02,
+    "Ymirium": 11297.13,
+    "Kutonium": 6638.78,
+    "Bastium": 5432.28,
+    "Alium Alloy": 3657.28,
+    "Ajatite": 1662.53,
+    "Corazium": 1416.35,
+    "Baltium Alloy": 1330.02,
+    "Arkanium": 1062.26
+ },
+ "Armor Value": 2.63,
+ "Density": 15.36,
+ "Corrosion Resistance": 502,
+ "Crafting Resources":{
+   "Red": 6350,
+   "Yellow": 0,
+   "Blue": 0,
+   "Purple": 6913
+ }
+},
+"Exorium Tank Module": {
+   "Weight": 492310.94,
+   "Volume": 38571.96,
+   "Crafting Materials": {
+     "Kutonium": 29982.04,
+     "Aegisium": 19985.22,
+     "Lukium": 18811.38,
+     "Alium Alloy": 3657.57,
+     "Ajatite": 1662.53,
+     "Baltium Alloy": 1330.02,
+     "Vokarium": 705.05
+   },
+   "Armor Value": 2.23,
+   "Density": 12.87,
+   "Corrosion Resistance": 496,
+   "Crafting Resources": {
+     "Red": 5298,
+     "Yellow": 0,
+     "Blue": 0,
+     "Purple": 4922
+   }
+ },
+"Fast Travel Propellant Tank Module": {
+   "Weight": 486991.94,
+   "Volume": 38564.07,
+   "Crafting Materials": {
+     "Lukium": 18079.48,
+     "Aegisium": 16710.16,
+     "Kutonium": 12316.29,
+     "Bastium": 11567.64,
+     "Ymrium": 8109.37,
+     "Alium Alloy": 3657.57,
+     "Vokarium": 2352.12,
+     "Ajatite": 1662.53,
+     "Baltium Alloy": 1330.02,
+     "Arkanium": 351.00
+   },
+   "Armor Value": 1.99,
+   "Density": 12.76,
+   "Corrosion Resistance": 512,
+   "Crafting Resources": {
+     "Red": 4901,
+     "Purple": 4877,
+     "Yellow": 0,
+     "Blue": 0
+   }
+ },
+ 
+ "Fast Travel Core Module": {
+  "Weight": 600776.69,
+  "Volume": 53850.15,
+  "Crafting Materials": {
+    "Kutonium": 23943.72,
+    "Charodium": 16926.81,
+    "Arkanium": 13528.79,
+    "Ajatite": 11872.25,
+    "Bastium": 11455.90,
+    "Karnite": 11144.00,
+    "Vokarium": 10871.73,
+    "Corazium": 9223.50,
+    "Lukium": 8270.55,
+    "Aegisium": 6529.81,
+    "Exorium": 2733.27,
+    "Ice": 1093.31
+  },
+  "Armor Value": 1.42,
+  "Density": 11.43,
+  "Corrosion Resistance": 456,
+  "Crafting Resources": {
+    "Red": 4608,
+    "Yellow": 7212,
+    "Purple": 4328,
+    "Blue": 0
+  }
+}
+}
