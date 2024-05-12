@@ -1,103 +1,440 @@
 {
-"Exorium Processing Unit":{
- "Weight": 699606.81,
- "Volume":  45857.66,
- "Crafting Materials":{
-    "Lukium": 35449.39,
-    "Charodium": 15062.83,
-    "Aegisium": 13280.02,
-    "Ymirium": 11297.13,
-    "Kutonium": 6638.78,
-    "Bastium": 5432.28,
-    "Alium Alloy": 3657.28,
-    "Ajatite": 1662.53,
-    "Corazium": 1416.35,
-    "Baltium Alloy": 1330.02,
-    "Arkanium": 1062.26
- },
- "Armor Value": 2.63,
- "Density": 15.36,
- "Corrosion Resistance": 502,
- "Crafting Resources":{
-   "Red": 6350,
-   "Yellow": 0,
-   "Blue": 0,
-   "Purple": 6913
- }
-},
-"Exorium Tank Module": {
-   "Weight": 492310.94,
-   "Volume": 38571.96,
-   "Crafting Materials": {
-     "Kutonium": 29982.04,
-     "Aegisium": 19985.22,
-     "Lukium": 18811.38,
-     "Alium Alloy": 3657.57,
-     "Ajatite": 1662.53,
-     "Baltium Alloy": 1330.02,
-     "Vokarium": 705.05
-   },
-   "Armor Value": 2.23,
-   "Density": 12.87,
-   "Corrosion Resistance": 496,
-   "Crafting Resources": {
-     "Red": 5298,
-     "Yellow": 0,
-     "Blue": 0,
-     "Purple": 4922
-   }
- },
-"Fast Travel Propellant Tank Module": {
-   "Weight": 486991.94,
-   "Volume": 38564.07,
-   "Crafting Materials": {
-     "Lukium": 18079.48,
-     "Aegisium": 16710.16,
-     "Kutonium": 12316.29,
-     "Bastium": 11567.64,
-     "Ymrium": 8109.37,
-     "Alium Alloy": 3657.57,
-     "Vokarium": 2352.12,
-     "Ajatite": 1662.53,
-     "Baltium Alloy": 1330.02,
-     "Arkanium": 351.00
-   },
-   "Armor Value": 1.99,
-   "Density": 12.76,
-   "Corrosion Resistance": 512,
-   "Crafting Resources": {
-     "Red": 4901,
-     "Purple": 4877,
-     "Yellow": 0,
-     "Blue": 0
-   }
- },
- 
- "Fast Travel Core Module": {
-  "Weight": 600776.69,
-  "Volume": 53850.15,
-  "Crafting Materials": {
-    "Kutonium": 23943.72,
-    "Charodium": 16926.81,
-    "Arkanium": 13528.79,
-    "Ajatite": 11872.25,
-    "Bastium": 11455.90,
-    "Karnite": 11144.00,
-    "Vokarium": 10871.73,
-    "Corazium": 9223.50,
-    "Lukium": 8270.55,
-    "Aegisium": 6529.81,
-    "Exorium": 2733.27,
-    "Ice": 1093.31
+  "Exorium Processing Unit": {
+    "Weight": 699606.81,
+    "Volume": 45857.66,
+    "Crafting Materials": {
+      "Lukium": 35449.39,
+      "Charodium": 15062.83,
+      "Aegisium": 13280.02,
+      "Ymirium": 11297.13,
+      "Kutonium": 6638.78,
+      "Bastium": 5432.28,
+      "Alium Alloy": 3657.28,
+      "Ajatite": 1662.53,
+      "Corazium": 1416.35,
+      "Baltium Alloy": 1330.02,
+      "Arkanium": 1062.26
+    },
+    "Armor Value": 2.63,
+    "Density": 15.36,
+    "Corrosion Resistance": 502,
+    "Crafting Resources": {
+      "Red": 6350,
+      "Purple": 6913
+    }
   },
-  "Armor Value": 1.42,
-  "Density": 11.43,
-  "Corrosion Resistance": 456,
-  "Crafting Resources": {
-    "Red": 4608,
-    "Yellow": 7212,
-    "Purple": 4328,
-    "Blue": 0
+  "Exorium Tank Module": {
+    "Weight": 492310.94,
+    "Volume": 38571.96,
+    "Crafting Materials": {
+      "Kutonium": 29982.04,
+      "Aegisium": 19985.22,
+      "Lukium": 18811.38,
+      "Alium Alloy": 3657.57,
+      "Ajatite": 1662.53,
+      "Baltium Alloy": 1330.02,
+      "Vokarium": 705.05
+    },
+    "Armor Value": 2.23,
+    "Density": 12.87,
+    "Corrosion Resistance": 496,
+    "Crafting Resources": {
+      "Red": 5298,
+      "Purple": 4922
+    }
+  },
+  "Fast Travel Propellant Tank Module": {
+    "Weight": 486991.94,
+    "Volume": 38564.07,
+    "Crafting Materials": {
+      "Lukium": 18079.48,
+      "Aegisium": 16710.16,
+      "Kutonium": 12316.29,
+      "Bastium": 11567.64,
+      "Ymrium": 8109.37,
+      "Alium Alloy": 3657.57,
+      "Vokarium": 2352.12,
+      "Ajatite": 1662.53,
+      "Baltium Alloy": 1330.02,
+      "Arkanium": 351.00
+    },
+    "Armor Value": 1.99,
+    "Density": 12.76,
+    "Corrosion Resistance": 512,
+    "Crafting Resources": {
+      "Red": 4901,
+      "Purple": 4877
+    }
+  },
+  "Fast Travel Core Module": {
+    "Weight": 600776.69,
+    "Volume": 53850.15,
+    "Crafting Materials": {
+      "Kutonium": 23943.72,
+      "Charodium": 16926.81,
+      "Arkanium": 13528.79,
+      "Ajatite": 11872.25,
+      "Bastium": 11455.90,
+      "Karnite": 11144.00,
+      "Vokarium": 10871.73,
+      "Corazium": 9223.50,
+      "Lukium": 8270.55,
+      "Aegisium": 6529.81,
+      "Exorium": 2733.27,
+      "Ice": 1093.31
+    },
+    "Armor Value": 1.42,
+    "Density": 11.43,
+    "Corrosion Resistance": 456,
+    "Crafting Resources": {
+      "Red": 4608,
+      "Yellow": 7212,
+      "Purple": 4328
+    }
+  },
+  "Generator Module (Station)": {
+    "Weight": 771872.94,
+    "Volume": 60671.52,
+    "Crafting Materials": {
+      "Kutonium": 49661.98,
+      "Charodium": 29051.20,
+      "Lukium": 21209.16,
+      "Ymrium": 11947.88,
+      "Valkite": 11947.88,
+      "Alium Alloy": 3657.57,
+      "Vokarium": 1720.68,
+      "Ajatite": 1662.53,
+      "Baltium Alloy": 1330.02,
+      "Arkanium": 822.93,
+      "Corazium": 598.49
+    },
+    "Armor Value": 2.38,
+    "Density": 12.84,
+    "Corrosion Resistance": 330,
+    "Crafting Resources": {
+      "Red": 10920,
+      "Purple": 11738
+    }
+  },
+  "Reconstruction Machine (Station)": {
+    "Weight": 192075.75,
+    "Volume": 17940.56,
+    "Crafting Materials": {
+      "Arkanium": 22778.28,
+      "Vokarium": 16836.12,
+      "Aegisium": 11884.32,
+      "Exorium": 9903.60,
+      "Kutonium": 7922.88,
+      "Charodium": 4951.80,
+      "Ajatite": 2971.08,
+      "Bastium": 816.42
+    },
+    "Armor Value": 1.16,
+    "Density": 11.21,
+    "Corrosion Resistance": 594,
+    "Crafting Resources": {
+      "Red": 959,
+      "Blue": 4809,
+      "Purple": 3848
+    }
+  },
+  "Shield Generator Module (Capital Ship)": {
+    "Weight": 504720.16,
+    "Volume": 37294.91,
+    "Crafting Materials": {
+      "Lukium": 67672.38,
+      "Aegisium": 45193.45,
+      "Kutonium": 35156.70,
+      "Karnite": 28807.92,
+      "Arkanium": 17887.25,
+      "Xhalium": 5535.69,
+      "Vokarium": 3587.27,
+      "Surtrite": 1977.03
+    },
+    "Armor Value": 1.94,
+    "Density": 13.79,
+    "Corrosion Resistance": 567,
+    "Crafting Resources": {
+      "Red": 9378,
+      "Yellow": 3101,
+      "Blue": 9378,
+      "Purple": 9378
+    }
+  },
+  "Supply Conduit 90 Module": {
+    "Weight": 8480.35,
+    "Volume": 826.57,
+    "Crafting Materials": {
+      "Vokarium": 178.66,
+      "Charodium": 89.33,
+      "Aegisium": 89.33,
+      "Ajatite": 89.33
+    },
+    "Armor Value": 1.23,
+    "Density": 10.43,
+    "Corrosion Resistance": 500,
+    "Crafting Resources": {
+      "Red": 28,
+      "Purple": 11
+    }
+  },
+  "Supply Conduit End Module": {
+    "Weight": 9187.84,
+    "Volume": 895.52,
+    "Crafting Materials": {
+      "Vokarium": 195.25,
+      "Charodium": 97.62,
+      "Aegisium": 97.62,
+      "Ajatite": 97.62
+    },
+    "Armor Value": 1.23,
+    "Density": 10.43,
+    "Corrosion Resistance": 500,
+    "Crafting Resources": {
+      "Red": 31,
+      "Purple": 12
+    }
+  },
+  "Supply Conduit Nexus Module": {
+    "Weight": 46.16,
+    "Volume": 44.37,
+    "Crafting Materials": {
+      "Bastium": 161.79,
+      "Corazium": 161.77,
+      "Ajatite": 138.66
+    },
+    "Armor Value": 0.45,
+    "Density": 10.56,
+    "Corrosion Resistance": 500,
+    "Crafting Resources": {
+    }
+  },
+  "Supply Conduit Straight Module": {
+    "Weight": 6052.65,
+    "Volume": 589.94,
+    "Crafting Materials": {
+      "Vokarium": 126.97,
+      "Aegisium": 63.49,
+      "Charodium": 63.48,
+      "Ajatite": 63.48
+    },
+    "Armor Value": 1.23,
+    "Density": 10.43,
+    "Corrosion Resistance": 500,
+    "Crafting Resources": {
+      "Red": 19,
+      "Purple": 7
+    }
+  },
+  "Supply Conduit Straight Module 100x100x32 cm": {
+    "Weight": 20255.89,
+    "Volume": 1974.30,
+    "Crafting Materials": {
+      "Vokarium": 427.56,
+      "Charodium": 213.78,
+      "Aegisium": 213.78,
+      "Ajatite": 213.78
+    },
+    "Armor Value": 1.23,
+    "Density": 10.43,
+    "Corrosion Resistance": 500,
+    "Crafting Resources": {
+      "Red": 69,
+      "Purple": 29
+    }
+  },
+  "Supply Conduit T-Section Module": {
+    "Weight": 7793.42,
+    "Volume": 759.61,
+    "Crafting Materials": {
+      "Vokarium": 163.86,
+      "Aegisium": 81.93,
+      "Charodium": 81.93,
+      "Ajatite": 81.93
+    },
+    "Armor Value": 1.23,
+    "Density": 10.43,
+    "Corrosion Resistance": 500,
+    "Crafting Resources": {
+      "Red": 25,
+      "Purple": 9
+    }
+  },
+  "Thruster Module Frame (Capital Ship)": {
+    "Weight": 632917.81,
+    "Volume": 65303.34,
+    "Crafting Materials": {
+      "Alium Alloy": 31182.01,
+      "Aegisium": 25114.56,
+      "Charodium": 23987.44,
+      "Arkanium": 23934.41,
+      "Vokarium": 18612.30,
+      "Ymrium": 17105.38,
+      "Corazium": 2064.80,
+      "Ajatite": 1662.53,
+      "Baltium Alloy": 1330.02
+    },
+    "Armor Value": 1.69,
+    "Density": 10.07,
+    "Corrosion Resistance": 596,
+    "Crafting Resources": {
+      "Red": 3417,
+      "Yellow": 1575,
+      "Purple": 23047
+    }
+  },
+  "Thruster Module Nozzle End (Capital Ship)": {
+    "Weight": 49847.40,
+    "Volume": 5580.25,
+    "Crafting Materials": {
+      "Ymrium": 5261.79,
+      "Alium Alloy": 5261.79,
+      "Aegisium": 4510.11
+    },
+    "Armor Value": 1.89,
+    "Density": 8.99,
+    "Corrosion Resistance": 642,
+    "Crafting Resources": {
+      "Red": 810,
+      "Purple": 3246
+    }
+  },
+  "Thruster Module Nozzle Ring (Capital Ship)": {
+    "Weight": 179671.39,
+    "Volume": 14849.54,
+    "Crafting Materials": {
+      "Arkanium": 9661.83,
+      "Lukium": 7729.46,
+      "Ymrium": 6956.52,
+      "Charodium": 4637.68,
+      "Alium Alloy": 3864.76,
+      "Vokarium": 3864.73,
+      "Corazium": 1932.36
+    },
+    "Armor Value": 1.85,
+    "Density": 12.58,
+    "Corrosion Resistance": 576,
+    "Crafting Resources": {
+      "Red": 704,
+      "Yellow": 2140,
+      "Purple": 5016
+    }
+  },
+  "Thruster Module Nozzle Support (Capital Ship)": {
+    "Weight": 209150.27,
+    "Volume": 24151.30,
+    "Crafting Materials": {
+      "Alium Alloy": 9813.77,
+      "Ajatite": 1662.53,
+      "Baltium Alloy": 1330.02
+    },
+    "Armor Value": 1.62,
+    "Density": 8.73,
+    "Corrosion Resistance": 681,
+    "Crafting Resources": {
+      "Red": 3076
+    }
+  },
+  "Capital Ship Cuboid Wall V1": {
+    "Weight": 65713.27,
+    "Volume": 7769.09,
+    "Crafting Materials": {
+      "Alium Alloy": 202.32
+    },
+    "Armor Value": 1.90,
+    "Density": 8.46,
+    "Corrosion Resistance": 750,
+    "Crafting Resources": {
+      "Red": 100
+    }
+  },
+  "Capital Ship Cuboid V1": {
+    "Weight": 16428.32,
+    "Volume": 1942.27,
+    "Crafting Materials": {
+      "Alium Alloy": 50.58
+    },
+    "Armor Value": 1.90,
+    "Density": 8.46,
+    "Corrosion Resistance": 750,
+    "Crafting Resources": {
+      "Red": 25
+    }
+  },
+  "Capital Ship Frame 1x1 (Long)": {
+    "Weight": 175472.17,
+    "Volume": 17167.15,
+    "Crafting Materials": {
+      "Baltium Alloy": 917.21
+    },
+    "Armor Value": 1.30,
+    "Density": 10.22,
+    "Corrosion Resistance": 400,
+    "Crafting Resources": {
+      "Red": 229
+    }
+  },
+  "Capital Ship Frame 1x1 (Medium)": {
+    "Weight": 87502.27,
+    "Volume": 8560.70,
+    "Crafting Materials": {
+      "Baltium Alloy": 457.78
+    },
+    "Armor Value": 1.30,
+    "Density": 10.22,
+    "Corrosion Resistance": 400,
+    "Crafting Resources": {
+      "Red": 114
+    }
+  },
+  "Capital Ship Frame 1x1 (Short)": {
+    "Weight": 43858.86,
+    "Volume": 4290.89,
+    "Crafting Materials": {
+      "Baltium Alloy": 230.74
+    },
+    "Armor Value": 1.30,
+    "Density": 10.22,
+    "Corrosion Resistance": 400,
+    "Crafting Resources": {
+      "Red": 57
+    }
+  },
+  "Karnite Tank Filler Tool": {
+    "Weight": 26.23,
+    "Volume": 3.04,
+    "Crafting Materials": {
+      "Karnite": 60800.00,
+      "Ice": 20266.62,
+      "Aegisium": 532.50,
+      "Bastium": 381.50,
+      "Charodium": 152.00,
+      "Vokarium": 152.00
+    },
+    "Armor Value": 0.12,
+    "Density": 8.64,
+    "Corrosion Resistance": 500,
+    "Crafting Resources": {
+      "Red": 190,
+      "Purple": 286
+    }
+  },
+  "Exorium Tank Filler Tool": {
+    "Weight": 47.52,
+    "Volume": 3.04,
+    "Crafting Materials": {
+      "Ice": 20266.62,
+      "Exorium": 20266.62,
+      "Bastium": 533.50,
+      "Aegisium": 532.50,
+      "Vokarium": 152.00
+    },
+    "Armor Value": 1.05,
+    "Density": 15.82,
+    "Corrosion Resistance": 550,
+    "Crafting Resources": {
+      "Red": 70,
+      "Purple": 104
+    }
   }
-}
 }
